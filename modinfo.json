@@ -2,12 +2,12 @@
   "name": "Build Anywhere",
   "author": "Wisnoskij",
   "description": "Removes build restrictions, build anywhere. Does not remove height limit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "Use it however you want, with or without attribution",
   "icon": "icon.png",
   "banner": "banner.jpg",
   "gameVersion": "Update 1.9.7",
-  "updateUrl": "",
+  "updateUrl": "https://greenhellmodding.com/api/v1/mods/buildanywhere/version.txt",
   "isModPermanent": false,
   "excludedFiles": []
 }
