@@ -1,0 +1,13 @@
+{
+  "name": "Build Anywhere",
+  "author": "Wisnoskij",
+  "description": "Removes build restrictions, build anywhere. Does not remove height limit",
+  "version": "1.0.0",
+  "license": "Use it however you want, with or without attribution",
+  "icon": "icon.png",
+  "banner": "banner.jpg",
+  "gameVersion": "Update 1.9.7",
+  "updateUrl": "",
+  "isModPermanent": false,
+  "excludedFiles": []
+}
