@@ -1,9 +1,6 @@
 using HarmonyLib;
 using System.Reflection;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class BuildAnywhere : Mod
 {
