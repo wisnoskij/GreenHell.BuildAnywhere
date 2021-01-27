@@ -20,6 +20,7 @@ public class BuildAnywhere : Mod
 	
 	public void OnModUnload()
 	{
+		instance.UnpatchAll();
 		Debug.Log(string.Format("Mod {0} has been unloaded!", ModName));
 	}
 }
