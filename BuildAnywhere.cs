@@ -6,18 +6,17 @@ public class BuildAnywhere : Mod
 {
 	private const string ModName = "buildanywhere";
 	private const string HarmonyId = "com.wisnoski.greenhell." + ModName;
-	Harmony instance;
+	Harmony instance_buildanywhere;
 	public void Start()
 	{
-		Debug.Log(string.Format("Mod {0} is attempting to load.", ModName));
-		instance = new Harmony(HarmonyId);
-		instance.PatchAll(Assembly.GetExecutingAssembly());
+		instance_buildanywhere = new Harmony(HarmonyId);
+		instance_buildanywhere.PatchAll(Assembly.GetExecutingAssembly());
 		Debug.Log(string.Format("Mod {0} has been loaded!", ModName));
 	}
 	
 	public void OnModUnload()
 	{
-		instance.UnpatchAll();
+		instance_buildanywhere.UnpatchAll(ModName);
 		Debug.Log(string.Format("Mod {0} has been unloaded!", ModName));
 	}
 }
